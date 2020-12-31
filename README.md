@@ -8,11 +8,11 @@
 
 ## eclipse编译器：
 
-![img](https://github.com/2560055298/shared03-minsuguanglixitong/blob/master/1.gif)
+![img](https://github.com/2560055298/shared03-minsuguanglixitong/blob/master/4、eclipse.gif)
 
   
 
 ## IntelliJ编译器：
 
-![img](https://gitee.com/sheep-are-flying-in-the-sky/mingsuguanlixitong/raw/master/2.gif)
+![img](https://github.com/2560055298/shared03-minsuguanglixitong/blob/master/5、intellij.gif)
 
