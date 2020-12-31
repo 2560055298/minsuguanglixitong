@@ -1,0 +1,51 @@
+
+create database h
+use h
+create table room(
+	rnum int not null primary key,
+	rtype varchar(25) not null,
+	rprice int not null,
+	rstate varchar(10) not null
+)
+
+create table customer(
+	cid char(18) not null primary key,
+	cname varchar(20) not null,
+	csex char(2) not null,
+	croomnum int not null,
+	cgettime date not null
+)
+
+
+
+create table foreground(
+	fgid char(18) not null,
+	fgroomnum int not null,
+	fgleavetime date not null,
+	fggettime date not null,
+	fgexpense int not null
+) 
+
+
+
+
+insert into room values(100, '单人房', 30, '未入住');
+insert into room values(101, '单人房', 30, '未入住');
+
+insert into room values(200, '双人房', 60, '未入住');
+insert into room values(201, '双人房', 60, '未入住');
+
+insert into room values(300, '三人房', 90, '未入住');
+insert into room values(301, '三人房', 90, '未入住');
+
+insert into room values(400, '蜜月客房', 150, '未入住');
+insert into room values(401, '蜜月客房', 150, '未入住');
+
+insert into room values(500, '豪华客房', 200, '未入住');
+insert into room values(501, '豪华客房', 200, '未入住');
+
+insert into room values(600, '总统套房', 300, '未入住');
+insert into room values(601, '总统套房', 300, '未入住');
+
+
+
